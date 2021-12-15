@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12569" started-at="2021-11-29T19:30:15Z" finished-at="2021-11-29T19:30:27Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="12569" started-at="2021-11-29T19:30:15Z" finished-at="2021-11-29T19:30:27Z">
+      <class name="com.testingshastra.util.RunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="setUpClass" is-config="true" duration-ms="891" started-at="2021-11-29T19:30:15Z" finished-at="2021-11-29T19:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="9584" started-at="2021-11-29T19:30:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check the title of homepage"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature verifys the homepage for all negative and positive scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="43" started-at="2021-11-29T19:30:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Passing numeric parameter to the Gherkin step"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature describes the parameterization in cucumber]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="17" started-at="2021-11-29T19:30:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Passing string parameter to the gherkin step"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature describes the parameterization in cucumber]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="24" started-at="2021-11-29T19:30:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Passing float parameter to the gherkin step"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature describes the parameterization in cucumber]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="42" started-at="2021-11-29T19:30:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Passing list of parameter to the Ghirkin step"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature describes the parameterization in cucumber]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="15" started-at="2021-11-29T19:30:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Passing table of parameters to the gherkin step"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature describes the parameterization in cucumber]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="20" started-at="2021-11-29T19:30:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature describes the parameterization in cucumber]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="13" started-at="2021-11-29T19:30:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature describes the parameterization in cucumber]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="13" started-at="2021-11-29T19:30:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature describes the parameterization in cucumber]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="11" started-at="2021-11-29T19:30:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature describes the parameterization in cucumber]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="18" started-at="2021-11-29T19:30:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature describes the parameterization in cucumber]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="1410" started-at="2021-11-29T19:30:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature describes the parameterization in cucumber]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="49" started-at="2021-11-29T19:30:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature describes the parameterization in cucumber]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="55" started-at="2021-11-29T19:30:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature describes the parameterization in cucumber]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="51" started-at="2021-11-29T19:30:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature describes the parameterization in cucumber]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="runScenario" duration-ms="135" started-at="2021-11-29T19:30:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-29T19:30:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature describes the parameterization in cucumber]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testingshastra.util.RunnerTest@7722c3c3]" name="tearDownClass" is-config="true" duration-ms="39" started-at="2021-11-29T19:30:27Z" finished-at="2021-11-29T19:30:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testingshastra.util.RunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
